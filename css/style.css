@@ -1,13 +1,23 @@
+* {
+  font-family: cairo;
+}
 .header{
-    width: 100%;
-    height: 110px;
-    background-color: aliceblue;
+  width: 390px;
+  margin: 0 auto;
 }
-.logo1{
-    width: 80px;
-    height: 80px;
+.img {
+  width: 88px;
+  height: 88px;
 }
-.logo2{
-    position: absolute;
-    left: 88%;
+.img2 {
+  width: 106px;
+  height: 60px;
+}
+.img3 {
+  width: 110px;
+  height: 45px;
+}
+.img4 {
+  width: 65px;
+  height: 100px;
 }
