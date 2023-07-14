@@ -1,23 +1,197 @@
 * {
-  font-family: cairo;
+  font-family: cairo, sans-serif;
+  transition: 0.5s;
 }
-.header{
+body {
+  background-color: #eedcae;
+  width: 1250px;
+  direction: rtl;
+}
+.header {
   width: 390px;
+  position: absolute;
+  right: 43%;
+}
+.header div {
+  background-color: #d8c9ab;
   margin: 0 auto;
 }
-.img {
+.header .img {
   width: 88px;
   height: 88px;
 }
-.img2 {
+.header .img2 {
   width: 106px;
   height: 60px;
 }
-.img3 {
+.header .img3 {
   width: 110px;
   height: 45px;
 }
-.img4 {
+.header .img4 {
   width: 65px;
   height: 110px;
+}
+.main {
+  width: 100%;
+}
+.main > .title {
+  font-weight: bold;
+  color: #a75125;
+  position: absolute;
+  right: 52%;
+  top: 15%;
+}
+.main .img5 {
+  position: absolute;
+  right: 44%;
+  top: 20%;
+}
+.main h5 {
+  color: #a75125;
+  position: absolute;
+  right: 44%;
+  top: 30%;
+}
+.main h2 {
+  color: #077a45;
+  font-weight: bold;
+  background-color: #d8c9ab;
+  width: fit-content;
+  padding: 5px;
+  position: absolute;
+  right: 37%;
+  top: 35%;
+}
+.main .h3 {
+  color: #a75125;
+  position: absolute;
+  right: 44%;
+  top: 45%;
+}
+.info {
+  width: 100%;
+  position: absolute;
+  right: 0%;
+  top: 70%;
+}
+.info .text {
+  font-size: 25px;
+}
+.info .info2 {
+  height: 100px;
+}
+.info .info2::before {
+  display: inline-block;
+  margin-left: 0.255em;
+  content: "";
+  background-color: #077a45;
+  position: absolute;
+  left: 46%;
+  bottom: 25%;
+  width: 5px;
+  height: 200px;
+}
+.info .info2 .calendar {
+  position: absolute;
+  left: 70%;
+  font-size: 35px;
+  bottom: 180%;
+  color: #077a45;
+}
+.info .info2 .date {
+  position: absolute;
+  left: 54%;
+  bottom: 170%;
+  color: #077a45;
+}
+.info .info2 .money1 {
+  position: absolute;
+  left: 70%;
+  font-size: 26px;
+  bottom: 40%;
+  color: #077a45;
+}
+.info .info2 .money2 {
+  position: absolute;
+  left: 55%;
+  color: #077a45;
+  bottom: 29%;
+}
+.info .info1 {
+  height: 100px;
+  width: 637px;
+}
+.info .info1 div {
+  height: 100px;
+}
+.info .info1 .location1 {
+  position: absolute;
+  left: 35%;
+  font-size: 35px;
+  bottom: 180%;
+  color: #077a45;
+}
+.info .info1 .locatoin2 {
+  position: absolute;
+  left: 20%;
+  bottom: 170%;
+  color: #077a45;
+}
+.info .info1 .time1 {
+  position: absolute;
+  left: 35%;
+  font-size: 26px;
+  bottom: 40%;
+  color: #077a45;
+}
+.info .info1 .time2 {
+  position: absolute;
+  left: 20%;
+  color: #077a45;
+  bottom: 29%;
+}
+.info .divCollapse {
+  position: absolute;
+  right: 27%;
+  top: 90%;
+}
+.info .divCollapse button {
+  border-radius: 10px;
+  border: none;
+  background-color: #077a45;
+  color: #ffffff;
+  padding: 5px;
+}
+.info .divCollapse button:hover {
+  background-color: #eedcae;
+  color: #077a45;
+}
+.info .divCollapse .list {
+  list-style: none;
+  color: #a75125;
+}
+.contact{
+  width: 100%;
+  height: 100px;
+}
+.contact p{
+  position: absolute;
+  right: 50%;
+  top: 90%;
+  color: white;
+  background-color: #a75125;
+  padding: 5px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+.contact div {
+  direction: ltr;
+  position: absolute;
+  right: 48.5%;
+  top: 95%;
+  color: white;
+  background-color: #a75125;
+  padding: 5px;
+  border-radius: 10px;
 }
